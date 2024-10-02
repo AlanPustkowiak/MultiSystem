@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MultiSystem.Client.Pages;
 using MultiSystem.Components;
+using MultiSystem.Services;
 using MultiSystem.Shared.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,8 @@ builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
 builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IGameService, GameService>();
 
 var app = builder.Build();
 

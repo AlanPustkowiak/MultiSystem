@@ -7,7 +7,7 @@ using MultiSystem.Shared.Data;
 
 #nullable disable
 
-namespace MultiSystem.Migrations
+namespace MultiSystem.Shared.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace MultiSystem.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("MultiSystem.Shared.Entity.Game", b =>
+            modelBuilder.Entity("MultiSystem.Shared.Model.Game", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

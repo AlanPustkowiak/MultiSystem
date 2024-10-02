@@ -24,7 +24,7 @@ namespace MultiSystem.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("MultiSystem.Shared.Model.Game", b =>
+            modelBuilder.Entity("MultiSystem.Shared.Entity.Game", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

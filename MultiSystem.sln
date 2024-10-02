@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSystem", "MultiSystem\MultiSystem.csproj", "{76FFDE76-7375-4FDA-BB97-547DE381FA5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiSystem", "MultiSystem\MultiSystem.csproj", "{76FFDE76-7375-4FDA-BB97-547DE381FA5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSystem.Client", "MultiSystem.Client\MultiSystem.Client.csproj", "{50849B33-2506-4FBC-9381-7177553D3F90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiSystem.Client", "MultiSystem.Client\MultiSystem.Client.csproj", "{50849B33-2506-4FBC-9381-7177553D3F90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiSystem.Shared", "..\MultiSystem.Shared\MultiSystem.Shared.csproj", "{E4326A20-EFF0-456A-869F-A1EC991C9B55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiSystem.Shared", "..\MultiSystem.Shared\MultiSystem.Shared.csproj", "{E4326A20-EFF0-456A-869F-A1EC991C9B55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
