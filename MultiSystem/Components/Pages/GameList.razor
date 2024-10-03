@@ -1,6 +1,9 @@
 ﻿@page "/games"
+@inject NavigationManager NavigationManager
 @inject IGameService GameService
 @attribute [StreamRendering]
+
+
 
 <h3>GameList</h3>
 
@@ -21,6 +24,7 @@ else
         }
     </ul>
 }
+<CreateGameButton></CreateGameButton>
 
 @code {
     List<Game>? games = null;
@@ -31,5 +35,4 @@ else
 
         games = await GameService.GetAllGames();
     }
-
 }
