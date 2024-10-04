@@ -22,4 +22,10 @@
     <ProjectReference Include="..\..\MultiSystem.Shared\MultiSystem.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Pages\EditGame.razor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
 </Project>
